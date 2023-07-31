@@ -19,6 +19,7 @@ import cardsArr from "./data.js"
 const cards = cardsArr.map((ele, index) => {
   return (
     <Card
+    //typescript
       {...ele}
       key={index}
       />
